@@ -1,0 +1,12 @@
+.nav{
+    background: rgb(41,141,145);
+    background: linear-gradient(90deg, rgba(41,141,145,1) 50%, rgba(0,212,255,1) 100%);
+    
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center; */
+}
