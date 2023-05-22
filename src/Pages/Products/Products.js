@@ -35,7 +35,7 @@ const Products = ()=>{
                 <div className="row my-5">
 
                     {products.map((product)=> (
-                        <div className="col-4 my-3" key={product.id}>
+                        <div className="col-sm-12 col-md-6 col-lg-4 my-3" key={product.id}>
                             <div className="card shadow h-100 d-flex flex-column">
                                 <Link to={`/products/${product.id}`}>
                                     <img className="card-img-top flex-grow-1" src={product.thumbnail} alt="Title" />
